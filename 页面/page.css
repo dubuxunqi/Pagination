@@ -1,0 +1,23 @@
+.pages ul{
+    float: left;
+}
+.pages ul li {
+    float: left;
+    min-width: 32px;
+    padding: 0 5px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    cursor: pointer;
+    list-style: none;
+    border: 1px solid #dcdcdc;
+    margin: 0 5px;
+}
+.pageActive {
+    color: red;
+    border: 1px solid transparent!important;
+}
+.disabled {
+    cursor: not-allowed!important;
+    color: rgb(220, 220, 220);
+}
